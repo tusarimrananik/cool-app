@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Access Camera",
-  description: "Access Camera",
+  title: "Instargram Hack",
+  description: "Instargram Hack",
 };
 
 export default function RootLayout({
