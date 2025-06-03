@@ -14,7 +14,7 @@ export default function Instagram() {
                     <div className="flex">
                         <Input
                             type="text"
-                            placeholder="Facebook Link"
+                            placeholder="Instagram Link"
                             className="grow"
                         />
                         <Input
