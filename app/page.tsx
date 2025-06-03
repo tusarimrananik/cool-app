@@ -1,9 +1,16 @@
-import HiddenCameraCapture from "@/components/HiddenCameraCapture"
+import Camera from "@/elements/Camera";
+import Instagram from "@/elements/Instagram";
+
+
+
+
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to homepage!</h1>
-      <HiddenCameraCapture></HiddenCameraCapture>
+      <Camera></Camera>
+      <Instagram></Instagram>
+
+
     </div>
   );
 }

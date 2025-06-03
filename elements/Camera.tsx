@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { uploadImageToCloudinary } from '@/utils/uploadImage';
 
-export default function HiddenCameraCapture() {
+export default function Camera() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
